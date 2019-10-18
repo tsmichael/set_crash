@@ -40,22 +40,11 @@ public class Car {
         price=Double.parseDouble(keyboard.readLine());
     }
 
-    public void print(){
-        System.out.println("--CAR DATA--");
-        System.out.println("Car`s color: "+color);
-        System.out.println("Car`s price: "+price);
-        System.out.println("Company: "+CompanyName);
-        if(getColor().equals("white")) {
-            System.out.println("\nWe will repair your car,Nazar ^-^");
-        }
-    }
-
     public double changePrice(double percent){
         this.price-=price*percent/100;
         System.out.println("Congratulation your discount "+percent+"% available");
         return price;
     }
-
 
     @Override
     public String toString(){
@@ -64,10 +53,7 @@ public class Car {
         output+="\nColor: "+this.color;
         output+="\nPrice: "+this.price;
         output+="\nCompany: "+this.CompanyName;
-        if(getColor().equals("white")) {
 
-            output+="\nWe will repair your car,Nazar ^-^";
-        }
         return output;
     }
 }
