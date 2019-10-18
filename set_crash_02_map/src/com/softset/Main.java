@@ -22,9 +22,9 @@ public class Main {
             name=keyboard.readLine();
             myHashMap.put(id,name);
         }
-        for(Map.Entry<String, String> entry: myHashMap.entrySet())
+        for(Map.Entry<String, String> entry: myHashMap.entrySet()) {
             System.out.println(entry.getKey() + " - " + entry.getValue());
-
+        }
         System.out.println("Dear User(Nazar) please find person name by ID ");
         id=keyboard.readLine();
         if(myHashMap.containsKey(id)) {
