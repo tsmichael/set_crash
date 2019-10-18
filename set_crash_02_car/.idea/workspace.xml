@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b6acf2d-0cdb-4a25-8e5e-74dccfc6946f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/softset/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/softset/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/softset/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/softset/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../set_crash_02_map/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../set_crash_02_map/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5b6acf2d-0cdb-4a25-8e5e-74dccfc6946f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/softset/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+            <state relative-caret-position="408">
+              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/softset/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -151,12 +146,12 @@
       <workItem from="1571404549651" duration="3095000" />
       <workItem from="1571408990709" duration="503000" />
       <workItem from="1571420141764" duration="44000" />
-      <workItem from="1571420263657" duration="388000" />
+      <workItem from="1571420263657" duration="762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22807000" />
+    <option name="totallyTimeSpent" value="23181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="47" width="1346" height="688" extended-state="0" />
@@ -208,15 +203,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/softset/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/softset/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/softset/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+        <state relative-caret-position="408">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
