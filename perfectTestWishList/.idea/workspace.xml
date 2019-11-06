@@ -4,7 +4,6 @@
     <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/WishListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/WishListTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +24,14 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="karrtopelka &lt;karrtopelka@gmail.com&gt;" />
         <option value="karrtopelka" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -45,78 +48,11 @@
   </component>
   <component name="ProjectId" id="1TFw4McB5KsUrkBFps3wFobMtmH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="perfectTestWishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perfectTestWishList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="perfectTestWishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perfectTestWishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="perfectTestWishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perfectTestWishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="perfectTestWishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perfectTestWishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="perfectTestWishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perfectTestWishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="perfectTestWishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perfectTestWishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="perfectTestWishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perfectTestWishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="perfectTestWishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="perfectTestWishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestWishList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../krrtpa" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -151,7 +87,9 @@
       <workItem from="1572938201165" duration="3663000" />
       <workItem from="1573030103349" duration="3256000" />
       <workItem from="1573063089868" duration="2725000" />
-      <workItem from="1573069015823" duration="1137000" />
+      <workItem from="1573069015823" duration="1709000" />
+      <workItem from="1573079382371" duration="20000" />
+      <workItem from="1573079456821" duration="397000" />
     </task>
     <servers />
   </component>
@@ -163,7 +101,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
