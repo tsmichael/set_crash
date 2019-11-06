@@ -23,7 +23,6 @@ public class HomePage extends BasePage{
 
     By buttonSearch= By.xpath("//button/i[contains(@class,'fa-search')]");
     By buttonAddToWishList = By.xpath("//button[contains(@data-original-title,'Add to Wish List')]");
-    By buttonAddwToWishList = By.xpath("//button[contains(@data-original-title,'Add to Wish List')]");
 
     public HomePage goToOpencart() {
         driver.get(URL);
@@ -36,12 +35,10 @@ public class HomePage extends BasePage{
         return this;
     }
 
-    public HomePage addToWishList(){
+    public HomePage addToWishList() {
         click(buttonAddToWishList);
         return this;
     }
-
-    public LoginPage red
 
 
 
