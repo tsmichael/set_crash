@@ -8,6 +8,7 @@ public class LoginPage extends BasePage{
     By emailField =By.xpath("//input[contains(@name,'email')]");
     By passwordField =By.xpath("//input[contains(@name,'password')]");
     By buttonLogin =By.xpath("//span[contains(text(),'Wish List')]");
+    By forgottenPassword = By.xpath("//span[contains(text(),'Forgotten Password')]")
 
     public LoginPage(WebDriver driver){
         super(driver);
@@ -19,10 +20,17 @@ public class LoginPage extends BasePage{
         writeText(emailField,email);
         //write password
         writeText(passwordField,password);
+        //forfot password
+
 
         click(buttonLogin);
         return this;
     }
 
+    public void clickForgottenPassword()
+    {
+        click(forgottenPassword);
+        return this;
+    }
 
 }
