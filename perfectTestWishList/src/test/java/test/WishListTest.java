@@ -11,9 +11,7 @@ public void testMethod() {
 
         homePage.goToOpencart()
                 .searchItem("Samsung Galaxy Tab")
-                .addToWishList()
-                .logIn()
-
+                .addToWishList();
     }
 
 }
