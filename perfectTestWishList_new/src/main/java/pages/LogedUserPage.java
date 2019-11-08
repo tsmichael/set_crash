@@ -1,7 +1,5 @@
 package pages;
 
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LogedUserPage extends BasePage {
@@ -13,5 +11,4 @@ public class LogedUserPage extends BasePage {
     public Header redirectToHeader(){
         return new Header(driver);
     }
-
 }

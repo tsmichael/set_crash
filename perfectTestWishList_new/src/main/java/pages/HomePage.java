@@ -12,18 +12,8 @@ public class HomePage extends BasePage{
     }
 
     String URL = "https://demo.opencart.com";
-
-    //String product  = "Samsung Galaxy Tab";
-    //@FindBy(xpath = "//input[contains(@class,'input-lg')]")
-    //public WebElement searchField;
-
     By searchField = By.xpath("//input[contains(@class,'input-lg')]");
-
-    //@FindBy(xpath = "//button/i[contains(@class,'fa-search')]")
-    //public WebElement buttonSearch;
-
     By buttonSearch= By.xpath("//button/i[contains(@class,'fa-search')]");
-
     public HomePage goToOpencart() {
         driver.get(URL);
         return this;
@@ -34,9 +24,4 @@ public class HomePage extends BasePage{
         click(buttonSearch);
         return new StorePage(driver);
     }
-
-   // public LoginPage red
-
-
-
 }
