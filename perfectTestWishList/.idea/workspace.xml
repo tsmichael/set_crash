@@ -4,6 +4,7 @@
     <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Please add me" />
-    <option name="LAST_COMMIT_MESSAGE" value="Please add me" />
+    <MESSAGE value="Roman Skaskiv Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Roman Skaskiv Test" />
   </component>
 </project>
