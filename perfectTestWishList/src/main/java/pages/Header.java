@@ -8,6 +8,7 @@ public class Header extends BasePage {
     By dropDown = By.xpath("//a[contains(@title,'My Account')]");
     By buttonCarretLogin = By.xpath("//a[contains(text(),'Login')]");
     By buttonWishList =By.xpath("//span[contains(text(),'Wish List')]");
+    By buttonDesktop = By.xpath("//li[contains(@class,'dropdown')]/a[contains(text(),'Desktops')]");
 
     public Header(WebDriver driver) {
         super(driver);
@@ -24,4 +25,7 @@ public class Header extends BasePage {
         click(buttonWishList);
         return new WishListPage(driver);
     }
+
+
+
 }
