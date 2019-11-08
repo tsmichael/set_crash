@@ -9,9 +9,7 @@ public class LoginPage extends BasePage{
     By passwordField =By.xpath("//input[contains(@name,'password')]");
     By buttonLogin =By.xpath("//input[contains(@value,'Login')]");
 
-    public LoginPage(WebDriver driver){
-        super(driver);
-    }
+    public LoginPage(WebDriver driver){ super(driver); }
 
     public LogedUserPage logIn(String email,String password){
         //write email
