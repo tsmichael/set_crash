@@ -34,4 +34,5 @@ public class HomePage extends BasePage {
         click(buttonAddToWishList);
         return this;
     }
+    
 }
