@@ -25,7 +25,4 @@ public class Header extends BasePage {
         click(buttonWishList);
         return new WishListPage(driver);
     }
-
-
-
 }
