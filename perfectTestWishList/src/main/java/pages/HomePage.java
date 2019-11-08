@@ -13,7 +13,7 @@ public class HomePage extends BasePage {
     //@FindBy(xpath = "//input[contains(@class,'input-lg')]")
     //public WebElement searchField
     By searchField = By.xpath("//input[contains(@class,'input-lg')]");
-
+    By contactUs = By.cssSelector("a[href$='contact']");
     //@FindBy(xpath = "//button/i[contains(@class,'fa-search')]")
     //public WebElement buttonSearch;
     By buttonSearch = By.xpath("//button/i[contains(@class,'fa-search')]");
