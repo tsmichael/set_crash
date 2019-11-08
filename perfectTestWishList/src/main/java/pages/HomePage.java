@@ -6,16 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage {
-    public HomePage(WebDriver driver) {
-        super(driver);
-    }
+    public HomePage(WebDriver driver) { super(driver); }
 
     String URL = "https://demo.opencart.com";
     //String product  = "Samsung Galaxy Tab";
     //@FindBy(xpath = "//input[contains(@class,'input-lg')]")
     //public WebElement searchField
     By searchField = By.xpath("//input[contains(@class,'input-lg')]");
-
+    By contactUs = By.cssSelector("a[href$='contact']");
     //@FindBy(xpath = "//button/i[contains(@class,'fa-search')]")
     //public WebElement buttonSearch;
     By buttonSearch = By.xpath("//button/i[contains(@class,'fa-search')]");

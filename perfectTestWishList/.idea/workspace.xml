@@ -24,11 +24,13 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="romanskaskiv" />
         <option value="karrtopelka &lt;karrtopelka@gmail.com&gt;" />
         <option value="karrtopelka" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
@@ -40,19 +42,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="97" />
-    <option name="y" value="28" />
-    <option name="width" value="1257" />
-    <option name="height" value="688" />
-  </component>
   <component name="ProjectId" id="1TFw4McB5KsUrkBFps3wFobMtmH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../krrtpa" />
+    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,6 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -91,6 +88,14 @@
       <workItem from="1573079382371" duration="20000" />
       <workItem from="1573079456821" duration="397000" />
     </task>
+    <task id="LOCAL-00001" summary="Roman Skaskiv Test">
+      <created>1573226430096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573226430096</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Please add me" />
-    <option name="LAST_COMMIT_MESSAGE" value="Please add me" />
+    <MESSAGE value="Roman Skaskiv Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Roman Skaskiv Test" />
   </component>
 </project>
