@@ -6,12 +6,9 @@ import org.openqa.selenium.WebDriver;
 
 public class LogedUserPage extends BasePage {
 
-    public LogedUserPage(WebDriver driver){
+    public LogedUserPage(WebDriver driver) { super(driver); }
 
-        super(driver);
-    }
-
-    public Header redirectToHeader(){
+    public Header redirectToHeader() {
         return new Header(driver);
     }
 
