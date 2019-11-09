@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../perfectTestWishList/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../perfectTestWishList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../perfectTestWishList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="karrtopelka &lt;karrtopelka@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
@@ -30,12 +39,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="97" />
-    <option name="y" value="28" />
-    <option name="width" value="1257" />
-    <option name="height" value="688" />
   </component>
   <component name="ProjectId" id="1TNRf9hoBi4Y6vxoIbJvBJm9IYs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -125,8 +128,16 @@
       <workItem from="1573063089868" duration="5710000" />
       <workItem from="1573121984407" duration="4108000" />
       <workItem from="1573250775785" duration="1415000" />
-      <workItem from="1573306099109" duration="274000" />
+      <workItem from="1573306099109" duration="954000" />
     </task>
+    <task id="LOCAL-00001" summary="ok">
+      <created>1573306387693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573306387693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -176,5 +187,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
 </project>
