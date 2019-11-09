@@ -32,7 +32,7 @@ public class BasePage {
         driver.findElement(elementBy).sendKeys(text);
     }
 
-// wain and result
+// expected and actual
     public void assertEquals(String actualResult){
         Assert.assertEquals(actualResult, "Product in WishList");
     }

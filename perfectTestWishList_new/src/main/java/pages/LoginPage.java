@@ -7,21 +7,20 @@ public class LoginPage extends BasePage{
 
     By emailField =By.xpath("//input[contains(@name,'email')]");
     By passwordField =By.xpath("//input[contains(@name,'password')]");
-    By buttonLogin =By.xpath("//span[contains(text(),'Wish List')]");
+    By buttonLogin =By.xpath("//input[contains(@value,'Login')]");
 
     public LoginPage(WebDriver driver){
         super(driver);
     }
 
-
-    public LoginPage logIn(String email,String password){
+    public LogedUserPage logIn(String email,String password){
         //write email
         writeText(emailField,email);
         //write password
         writeText(passwordField,password);
-
+        // click button
         click(buttonLogin);
-        return this;
+        return new LogedUserPage(driver);
     }
 
 
