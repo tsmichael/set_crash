@@ -24,4 +24,7 @@ public class HomePage extends BasePage{
         click(buttonSearch);
         return new StorePage(driver);
     }
+
+    // Roman Skaskiv - done
+    // Max Plotitsyn - done
 }
