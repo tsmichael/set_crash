@@ -25,6 +25,6 @@ public class HomePage extends BasePage{
         return new StorePage(driver);
     }
 
-    // Roman Skaskiv - done.
-    // Max Plotitsyn - done.
+    // Roman Skaskiv - done
+    // Max Plotitsyn - done
 }
