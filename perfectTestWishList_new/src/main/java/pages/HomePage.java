@@ -26,4 +26,5 @@ public class HomePage extends BasePage{
     }
 
     // Roman Skaskiv - done.
+    // Max Plotitsyn - done.
 }
