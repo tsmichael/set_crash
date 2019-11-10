@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="Max Karrtopelka.&#10;- Added comparison buttons&#10;- Added comparison page&#10;- Added Apache Maven Compiler Plugin&#10;- Added comparison class and test&#10;P.S. Test &quot;ComparisonTest&quot; passed.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/SamsungGalaxyTabPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
@@ -78,7 +79,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ComparisonTest.testMethod">
+  <component name="RunManager" selected="TestNG.BannerClickTest.testMethod">
+    <configuration name="BannerClickTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.opencart.demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BannerClickTest" />
+      <option name="METHOD_NAME" value="testMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComparisonTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.opencart.demo" />
       <extension name="coverage">
@@ -151,6 +170,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BannerClickTest.testMethod" />
         <item itemvalue="TestNG.ComparisonTest.testMethod" />
         <item itemvalue="TestNG.HomeTest.testMethod" />
         <item itemvalue="TestNG.WishListTest (1)" />

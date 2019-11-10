@@ -10,18 +10,19 @@ public class HomePage extends BasePage {
 
     String URL = "https://demo.opencart.com";
     By searchField = By.xpath("//input[contains(@class,'input-lg')]");
-    By contactUs = By.cssSelector("a[href$='contact'");
+    By contactUs = By.cssSelector("a[href$='contact']");
     // Max Karrtopelka
     By addToWishListMacBook = By.xpath("//button[@onclick=\"compare.add('43');\"]");
     By addToWishListiPhone = By.xpath("//button[@onclick=\"compare.add('40');\"]");
     By addToWishListiMac = By.xpath("//button[@onclick=\"compare.add('42');\"]");
     By addToWishListCanon = By.xpath("//button[@onclick=\"compare.add('30');\"]");
-    By buttonProductComparison = By.cssSelector("a[href$='compare'");
+    By buttonProductComparison = By.cssSelector("a[href='https://demo.opencart.com/index.php?route=product/product&path=57&product_id=49']");
     // TsMichael
     By addToCartMacBook=By.xpath("//button[@onclick=\"cart.add('43');\"]");
     By addToCartiPhone =By.xpath("//button[@onclick=\"cart.add('40');\"]");
     By buttonBucket = By.id("cart");
     // romanSkaskiv
+    By buttonBanner = By.cssSelector("a[href$='id=49']");
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -52,5 +53,10 @@ public class HomePage extends BasePage {
         click(addToCartMacBook);
         click(buttonBucket);
         return this;
+    }
+
+    public SamsungGalaxyTabPage clickBanner() {
+        click(buttonBanner);
+        return new SamsungGalaxyTabPage(driver);
     }
 }
