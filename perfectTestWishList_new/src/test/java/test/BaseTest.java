@@ -7,11 +7,11 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
 
-    public WebDriver driver;
+    WebDriver driver;
 
     @BeforeClass
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/User/Desktop/newChr/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:/Learning/SET/chromedriver_win32/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }

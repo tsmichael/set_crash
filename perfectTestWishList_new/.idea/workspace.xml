@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="Merge branch 'selenium' into maxKarrtopelka&#10;&#10;# Conflicts:&#10;#&#9;perfectTestWishList/.idea/misc.xml&#10;#&#9;perfectTestWishList/.idea/workspace.xml&#10;#&#9;perfectTestWishList/src/main/java/pages/HomePage.java&#10;#&#9;perfectTestWishList/src/main/java/pages/LoginPage.java">
+    <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="Max Karrtopelka.&#10;- Added comparison buttons&#10;- Added comparison page&#10;- Added Apache Maven Compiler Plugin&#10;- Added comparison class and test&#10;P.S. Test &quot;ComparisonTest&quot; passed.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/ComparisonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/WishListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/WishListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LogedUserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LogedUserPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/StorePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/StorePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/WishListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/WishListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/WishListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/WishListTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +42,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/StorePage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -54,6 +73,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,7 +87,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.WishListTest (1)">
+  <component name="RunManager" selected="TestNG.ComparisonTest.testMethod">
+    <configuration name="ComparisonTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.opencart.demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ComparisonTest" />
+      <option name="METHOD_NAME" value="testMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WishListTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.opencart.demo" />
       <extension name="coverage">
@@ -104,6 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ComparisonTest.testMethod" />
         <item itemvalue="TestNG.WishListTest (1)" />
         <item itemvalue="TestNG.WishListTest" />
       </list>
@@ -124,7 +163,8 @@
       <workItem from="1573063089868" duration="5710000" />
       <workItem from="1573121984407" duration="4108000" />
       <workItem from="1573250775785" duration="1415000" />
-      <workItem from="1573306099109" duration="1340000" />
+      <workItem from="1573306099109" duration="2013000" />
+      <workItem from="1573412220416" duration="5159000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1573306387693</created>
@@ -142,38 +182,6 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="WishListTest - 2019.11.07 at 13h 09m 25s.xml">
-      <configuration name="WishListTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WishListTest - 2019.11.07 at 13h 11m 17s.xml">
-      <configuration name="WishListTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WishListTest - 2019.11.07 at 13h 13m 26s.xml">
-      <configuration name="WishListTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WishListTest - 2019.11.07 at 13h 17m 19s.xml">
-      <configuration name="WishListTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WishListTest - 2019.11.07 at 13h 19m 08s.xml">
-      <configuration name="WishListTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WishListTest - 2019.11.07 at 13h 26m 17s.xml">
-      <configuration name="WishListTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WishListTest_(1) - 2019.11.09 at 00h 21m 48s.xml">
-      <configuration name="WishListTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WishListTest - 2019.11.09 at 00h 23m 39s.xml">
-      <configuration name="WishListTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WishListTest_(1) - 2019.11.09 at 00h 26m 29s.xml">
-      <configuration name="WishListTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WishListTest_(1) - 2019.11.09 at 00h 27m 05s.xml">
-      <configuration name="WishListTest (1)" configurationId="TestNG" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -194,6 +202,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <MESSAGE value="Merge branch 'selenium' into maxKarrtopelka&#10;&#10;# Conflicts:&#10;#&#9;perfectTestWishList/.idea/misc.xml&#10;#&#9;perfectTestWishList/.idea/workspace.xml&#10;#&#9;perfectTestWishList/src/main/java/pages/HomePage.java&#10;#&#9;perfectTestWishList/src/main/java/pages/LoginPage.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'selenium' into maxKarrtopelka&#10;&#10;# Conflicts:&#10;#&#9;perfectTestWishList/.idea/misc.xml&#10;#&#9;perfectTestWishList/.idea/workspace.xml&#10;#&#9;perfectTestWishList/src/main/java/pages/HomePage.java&#10;#&#9;perfectTestWishList/src/main/java/pages/LoginPage.java" />
+    <MESSAGE value="Max Karrtopelka." />
+    <MESSAGE value="Max Karrtopelka.&#10;- Added comparison buttons&#10;- Added comparison page&#10;- Added Apache Maven Compiler Plugin&#10;- Added comparison class and test&#10;P.S. Test &quot;ComparisonTest&quot; passed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Max Karrtopelka.&#10;- Added comparison buttons&#10;- Added comparison page&#10;- Added Apache Maven Compiler Plugin&#10;- Added comparison class and test&#10;P.S. Test &quot;ComparisonTest&quot; passed." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
