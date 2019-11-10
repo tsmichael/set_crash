@@ -21,6 +21,8 @@ public class HomePage extends BasePage {
     By addToCartMacBook=By.xpath("//button[@onclick=\"cart.add('43');\"]");
     By addToCartiPhone =By.xpath("//button[@onclick=\"cart.add('40');\"]");
     By buttonBucket = By.id("cart");
+    // romanSkaskiv
+
     public HomePage(WebDriver driver) {
         super(driver);
     }
