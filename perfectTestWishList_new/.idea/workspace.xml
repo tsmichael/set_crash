@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="Max Karrtopelka.&#10;- Added comparison buttons&#10;- Added comparison page&#10;- Added Apache Maven Compiler Plugin&#10;- Added comparison class and test&#10;P.S. Test &quot;ComparisonTest&quot; passed.">
+    <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="Roman Skaskiv / Max Karrtopelka.&#10;*Roman Skaskiv*&#10;- Added AddToWishList buttons&#10;- Added WishListAddTest&#10;*Max Karrtopelka*&#10;- Changed names of elements">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SamsungGalaxyTabPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/HomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/WishListAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +30,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <dirStrings>
-      <dir>E:\java.code\!newRepo\set_crash\perfectTestWishList_new\src</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -36,8 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/StorePage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/pages/SamsungGalaxyTabPage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
@@ -79,25 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BannerClickTest.testMethod">
-    <configuration name="BannerClickTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.opencart.demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BannerClickTest" />
-      <option name="METHOD_NAME" value="testMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="ComparisonTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.opencart.demo" />
       <extension name="coverage">
@@ -134,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WishListTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WishListAddTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.opencart.demo" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +129,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.WishListTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="test.WishListAddTest" />
+      <option name="METHOD_NAME" value="testMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -168,9 +155,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WishListTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.opencart.demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.WishListTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BannerClickTest.testMethod" />
+        <item itemvalue="TestNG.WishListAddTest.testMethod" />
         <item itemvalue="TestNG.ComparisonTest.testMethod" />
         <item itemvalue="TestNG.HomeTest.testMethod" />
         <item itemvalue="TestNG.WishListTest (1)" />
@@ -214,9 +218,6 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2547000" />
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -252,7 +253,8 @@
     <MESSAGE value="Merge branch 'selenium' into maxKarrtopelka&#10;&#10;# Conflicts:&#10;#&#9;perfectTestWishList/.idea/misc.xml&#10;#&#9;perfectTestWishList/.idea/workspace.xml&#10;#&#9;perfectTestWishList/src/main/java/pages/HomePage.java&#10;#&#9;perfectTestWishList/src/main/java/pages/LoginPage.java" />
     <MESSAGE value="Max Karrtopelka." />
     <MESSAGE value="Max Karrtopelka.&#10;- Added comparison buttons&#10;- Added comparison page&#10;- Added Apache Maven Compiler Plugin&#10;- Added comparison class and test&#10;P.S. Test &quot;ComparisonTest&quot; passed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Max Karrtopelka.&#10;- Added comparison buttons&#10;- Added comparison page&#10;- Added Apache Maven Compiler Plugin&#10;- Added comparison class and test&#10;P.S. Test &quot;ComparisonTest&quot; passed." />
+    <MESSAGE value="Roman Skaskiv / Max Karrtopelka.&#10;*Roman Skaskiv*&#10;- Added AddToWishList buttons&#10;- Added WishListAddTest&#10;*Max Karrtopelka*&#10;- Changed names of elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Roman Skaskiv / Max Karrtopelka.&#10;*Roman Skaskiv*&#10;- Added AddToWishList buttons&#10;- Added WishListAddTest&#10;*Max Karrtopelka*&#10;- Changed names of elements" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

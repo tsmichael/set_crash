@@ -12,17 +12,21 @@ public class HomePage extends BasePage {
     By searchField = By.xpath("//input[contains(@class,'input-lg')]");
     By contactUs = By.cssSelector("a[href$='contact']");
     // Max Karrtopelka
-    By addToWishListMacBook = By.xpath("//button[@onclick=\"compare.add('43');\"]");
-    By addToWishListiPhone = By.xpath("//button[@onclick=\"compare.add('40');\"]");
-    By addToWishListiMac = By.xpath("//button[@onclick=\"compare.add('42');\"]");
-    By addToWishListCanon = By.xpath("//button[@onclick=\"compare.add('30');\"]");
-    By buttonProductComparison = By.cssSelector("a[href='https://demo.opencart.com/index.php?route=product/product&path=57&product_id=49']");
+    By addToCompariseMacBook = By.xpath("//button[@onclick=\"compare.add('43');\"]");
+    By addToCompariseiPhone = By.xpath("//button[@onclick=\"compare.add('40');\"]");
+    By addToCompariseiMac = By.xpath("//button[@onclick=\"compare.add('42');\"]");
+    By addToCompariseCanon = By.xpath("//button[@onclick=\"compare.add('30');\"]");
+    By buttonProductComparison = By.cssSelector("a[href$='compare']");
     // TsMichael
-    By addToCartMacBook=By.xpath("//button[@onclick=\"cart.add('43');\"]");
-    By addToCartiPhone =By.xpath("//button[@onclick=\"cart.add('40');\"]");
+    By addToCartMacBook = By.xpath("//button[@onclick=\"cart.add('43');\"]");
+    By addToCartiPhone = By.xpath("//button[@onclick=\"cart.add('40');\"]");
     By buttonBucket = By.id("cart");
     // romanSkaskiv
-    By buttonBanner = By.cssSelector("a[href$='id=49']");
+    By addToWishListMacBook = By.xpath("//button[@onclick=\"wishlist.add('43');\"]");
+    By addToWishListiPhone = By.xpath("//button[@onclick=\"wishlist.add('40');\"]");
+    By addToWishListiMac = By.xpath("//button[@onclick=\"wishlist.add('42');\"]");
+    By addToWishListCanon = By.xpath("//button[@onclick=\"wishlist.add('30');\"]");
+    By buttonWishList = By.cssSelector("a[href$='wishlist']");
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -40,15 +44,15 @@ public class HomePage extends BasePage {
     }
 
     public ComparisonPage addItem() {
-        click(addToWishListMacBook);
-        click(addToWishListiPhone);
-        click(addToWishListiMac);
-        click(addToWishListCanon);
+        click(addToCompariseMacBook);
+        click(addToCompariseiPhone);
+        click(addToCompariseiMac);
+        click(addToCompariseCanon);
         click(buttonProductComparison);
         return new ComparisonPage(driver);
     }
 
-    public HomePage addToBucket(){
+    public HomePage addToBucket() {
         click(addToCartiPhone);
         click(addToCartMacBook);
         click(buttonBucket);
@@ -56,7 +60,11 @@ public class HomePage extends BasePage {
     }
 
     public SamsungGalaxyTabPage clickBanner() {
-        click(buttonBanner);
+        click(addToWishListMacBook);
+        click(addToWishListiPhone);
+        click(addToWishListiMac);
+        click(addToWishListCanon);
+        click(buttonWishList);
         return new SamsungGalaxyTabPage(driver);
     }
 }

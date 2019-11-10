@@ -3,7 +3,7 @@ package test;
 import org.testng.annotations.Test;
 import pages.HomePage;
 
-public class BannerClickTest extends BaseTest {
+public class WishListAddTest extends BaseTest {
 
     @Test
     public void testMethod() {
