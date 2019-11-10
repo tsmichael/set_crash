@@ -17,7 +17,10 @@ public class HomePage extends BasePage {
     By addToWishListiMac = By.xpath("//button[@onclick=\"compare.add('42');\"]");
     By addToWishListCanon = By.xpath("//button[@onclick=\"compare.add('30');\"]");
     By buttonProductComparison = By.cssSelector("a[href$='compare'");
-
+    // TsMichael
+    By addToCartMacBook=By.xpath("//button[@onclick=\"cart.add('43');\"]");
+    By addToCartiPhone =By.xpath("//button[@onclick=\"cart.add('40');\"]");
+    By buttonBucket = By.id("cart");
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -40,5 +43,12 @@ public class HomePage extends BasePage {
         click(addToWishListCanon);
         click(buttonProductComparison);
         return new ComparisonPage(driver);
+    }
+
+    public HomePage addToBucket(){
+        click(addToCartiPhone);
+        click(addToCartMacBook);
+        click(buttonBucket);
+        return this;
     }
 }
