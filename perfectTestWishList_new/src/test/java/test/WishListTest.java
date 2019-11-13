@@ -20,3 +20,4 @@ public class WishListTest extends BaseTest {
                 .isElementContains("SAM1");
     }
 }
+
