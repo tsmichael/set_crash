@@ -11,9 +11,9 @@ public class WishListPage extends BasePage {
     public WishListPage isElementContains(String expectedNameProduct){
         String actualResult;
         if(driver.getPageSource().contains(expectedNameProduct)){
-            actualResult="Product in WishList";
+            actualResult="Present";
         }else{
-            actualResult="Product is not present";
+            actualResult="Not Present";
         }
         assertEquals(actualResult);
         return this;
