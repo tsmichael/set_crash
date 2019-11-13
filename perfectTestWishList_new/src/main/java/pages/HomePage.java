@@ -2,8 +2,6 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage {
     By buttonSearch = By.xpath("//button/i[contains(@class,'fa-search')]");
@@ -11,16 +9,20 @@ public class HomePage extends BasePage {
     String URL = "https://demo.opencart.com";
     By searchField = By.xpath("//input[contains(@class,'input-lg')]");
     By contactUs = By.cssSelector("a[href$='contact']");
+
     // Max Karrtopelka
     By addToCompariseMacBook = By.xpath("//button[@onclick=\"compare.add('43');\"]");
     By addToCompariseiPhone = By.xpath("//button[@onclick=\"compare.add('40');\"]");
     By addToCompariseiMac = By.xpath("//button[@onclick=\"compare.add('42');\"]");
     By addToCompariseCanon = By.xpath("//button[@onclick=\"compare.add('30');\"]");
     By buttonProductComparison = By.cssSelector("a[href$='compare']");
+
+
     // TsMichael
     By addToCartMacBook = By.xpath("//button[@onclick=\"cart.add('43');\"]");
     By addToCartiPhone = By.xpath("//button[@onclick=\"cart.add('40');\"]");
     By buttonBucket = By.id("cart");
+
     // romanSkaskiv
     By addToWishListMacBook = By.xpath("//button[@onclick=\"wishlist.add('43');\"]");
     By addToWishListiPhone = By.xpath("//button[@onclick=\"wishlist.add('40');\"]");
@@ -43,14 +45,22 @@ public class HomePage extends BasePage {
         return new StorePage(driver);
     }
 
-    public ComparisonPage addItem() {
-        click(addToCompariseMacBook);
-        click(addToCompariseiPhone);
-        click(addToCompariseiMac);
-        click(addToCompariseCanon);
+    public ComparisonPage goToComparisonPage() throws InterruptedException {
+        Thread.sleep(5000);
         click(buttonProductComparison);
         return new ComparisonPage(driver);
     }
+
+    public HomePage addToComparisonList(String productName) {
+        click(getCompariseButton(productName));
+        return this;
+    }
+
+    public By getCompariseButton(String productName) {
+        return By.xpath("//a[contains(text(), '" + productName + "')]/../../..//button[contains(@data-original-title, 'Compare this Product')]");
+    }
+
+
 
     public HomePage addToBucket() {
         click(addToCartiPhone);
