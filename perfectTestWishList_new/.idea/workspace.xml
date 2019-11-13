@@ -1,47 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="Roman Skaskiv / Max Karrtopelka.&#10;*Roman Skaskiv*&#10;- Added AddToWishList buttons&#10;- Added WishListAddTest&#10;*Max Karrtopelka*&#10;- Changed names of elements">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SamsungGalaxyTabPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/ComparisonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/WishListAddTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/set_crash.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5937cc59-cb0b-4d39-a51a-e3c2e92bcb34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/ForgotPasswordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../perfectTestWishList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../perfectTestWishList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/perfectTestWishList.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/Header.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/WishListPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/test/java/test/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/test/java/test/WishListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/HomeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogedUserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogedUserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/WishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WishListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/WishListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/WishListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Header.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LogedUserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LogedUserPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/StorePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/StorePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/WishListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/WishListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/WishListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/WishListTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../FirstTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />

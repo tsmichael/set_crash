@@ -1,7 +1,6 @@
 package pages;
 
 
-import com.sun.tools.javac.util.Assert;
 import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -35,6 +34,6 @@ public class BasePage {
 
 // expected and actual
     public void assertEquals(String actualResult){
-        Assert.assertEquals(actualResult, "Product in WishList");
+        Assert.assertEquals(actualResult, "Present");
     }
 }

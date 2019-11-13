@@ -67,4 +67,8 @@ public class HomePage extends BasePage {
         click(buttonWishList);
         return new SamsungGalaxyTabPage(driver);
     }
+
+    public Header redirectToHeader() {
+        return new Header(driver);
+    }
 }
