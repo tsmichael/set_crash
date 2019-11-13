@@ -34,6 +34,6 @@ public class BasePage {
 
 // expected and actual
     public void assertEquals(String actualResult){
-        Assert.assertEquals(actualResult, "Product in WishList");
+        Assert.assertEquals(actualResult, "Present");
     }
 }

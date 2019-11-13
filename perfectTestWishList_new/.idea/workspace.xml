@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="Roman Skaskiv / Max Karrtopelka.&#10;*Roman Skaskiv*&#10;- Added AddToWishList buttons&#10;- Added WishListAddTest&#10;*Max Karrtopelka*&#10;- Changed names of elements">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SamsungGalaxyTabPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/HomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/WishListAddTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/ForgotPasswordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WishListPage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +37,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/pages/StorePage.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pages/SamsungGalaxyTabPage.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/StorePage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/SamsungGalaxyTabPage.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -83,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ComparisonTest.testMethod">
+  <component name="RunManager" selected="TestNG.ForgotPasswordTest">
     <configuration name="ComparisonTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.opencart.demo" />
       <extension name="coverage">
@@ -96,6 +94,23 @@
       <option name="MAIN_CLASS_NAME" value="test.ComparisonTest" />
       <option name="METHOD_NAME" value="testMethod" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForgotPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.opencart.demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ForgotPasswordTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -174,6 +189,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ForgotPasswordTest" />
         <item itemvalue="TestNG.WishListAddTest.testMethod" />
         <item itemvalue="TestNG.ComparisonTest.testMethod" />
         <item itemvalue="TestNG.HomeTest.testMethod" />
