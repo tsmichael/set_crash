@@ -30,7 +30,7 @@ public class LoginPage extends BasePage{
     public void clickForgottenPassword()
     {
         click(forgottenPassword);
-
+        return this;
     }
 
 }

@@ -3,10 +3,10 @@ package test;
 import org.testng.annotations.Test;
 import pages.HomePage;
 
-public class WishListTest extends BaseTest{
+public class WishListTest extends BaseTest {
 
     @Test
-public void testMethod() {
+    public void testMethod() {
         HomePage homePage = new HomePage(driver);
 
         homePage.goToOpencart()
@@ -14,10 +14,10 @@ public void testMethod() {
                 .addToWishList()
                 .redirectToHeader()
                 .goToLoginPage()
-                .logIn("dark@gmail.com","qwert1")
+                .logIn("dark@gmail.com", "qwert1")
                 .redirectToHeader()
                 .goToWishList()
                 .isElementContains("SAM1");
     }
-
 }
+
