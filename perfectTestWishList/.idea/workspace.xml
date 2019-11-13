@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+>>>>>>> 969a6bf37fe44a77be30d73cf8d65e5c25d5417c
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestWishList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../krrtpa" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,6 +91,7 @@
       <workItem from="1572938201165" duration="3663000" />
       <workItem from="1573030103349" duration="3256000" />
       <workItem from="1573063089868" duration="2725000" />
+<<<<<<< HEAD
       <workItem from="1573069015823" duration="2650000" />
     </task>
     <task id="LOCAL-00001" summary="FIX">
@@ -95,6 +100,11 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1573070864619</updated>
+=======
+      <workItem from="1573069015823" duration="1709000" />
+      <workItem from="1573079382371" duration="20000" />
+      <workItem from="1573079456821" duration="397000" />
+>>>>>>> 969a6bf37fe44a77be30d73cf8d65e5c25d5417c
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -107,7 +117,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
