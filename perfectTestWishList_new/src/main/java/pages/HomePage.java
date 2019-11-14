@@ -61,7 +61,6 @@ public class HomePage extends BasePage {
     }
 
 
-
     public HomePage addToBucket() {
         click(addToCartiPhone);
         click(addToCartMacBook);
