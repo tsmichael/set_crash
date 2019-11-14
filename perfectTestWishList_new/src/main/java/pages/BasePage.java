@@ -1,39 +1,40 @@
 package pages;
 
 
-import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import java.util.concurrent.TimeUnit;
 
 public class BasePage {
     public WebDriver driver;
-    public WebDriverWait wait;
+    private WebDriverWait wait;
 
-    public BasePage(WebDriver driver){
-        this.driver=driver;
-        wait=new WebDriverWait(driver,15);
+    public BasePage(WebDriver driver) {
+        this.driver = driver;
+        wait = new WebDriverWait(driver, 15);
     }
 
-    public void waitVisibility(By elementBy) {
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
+    private void waitVisibility(By elementBy) {
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 
-//Click Method
-    public void click (By elementBy) {
+    //Click Method
+    void click(By elementBy) {
         waitVisibility(elementBy);
         driver.findElement(elementBy).click();
     }
 
-//Write text
-    public void writeText(By elementBy,String text){
+    //Write text
+    void writeText(By elementBy, String text) {
         waitVisibility(elementBy);
         driver.findElement(elementBy).sendKeys(text);
     }
 
-// expected and actual
-    public void assertEquals(String actualResult){
-        Assert.assertEquals(actualResult, "Product in WishList");
+    // expected and actual
+    void assertEquals(String actualResult) {
+        Assert.assertEquals(actualResult, "Present");
     }
 }
