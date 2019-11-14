@@ -2,8 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.support.FindBy;
+
 
 public class HomePage extends BasePage {
     By buttonSearch = By.xpath("//button/i[contains(@class,'fa-search')]");
