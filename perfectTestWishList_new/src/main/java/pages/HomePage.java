@@ -9,26 +9,22 @@ public class HomePage extends BasePage {
     String URL = "https://demo.opencart.com";
     By searchField = By.xpath("//input[contains(@class,'input-lg')]");
     By contactUs = By.cssSelector("a[href$='contact']");
-
-    // Max Karrtopelka
     By addToCompariseMacBook = By.xpath("//button[@onclick=\"compare.add('43');\"]");
     By addToCompariseiPhone = By.xpath("//button[@onclick=\"compare.add('40');\"]");
     By addToCompariseiMac = By.xpath("//button[@onclick=\"compare.add('42');\"]");
     By addToCompariseCanon = By.xpath("//button[@onclick=\"compare.add('30');\"]");
     By buttonProductComparison = By.cssSelector("a[href$='compare']");
-
-
-    // TsMichael
     By addToCartMacBook = By.xpath("//button[@onclick=\"cart.add('43');\"]");
     By addToCartiPhone = By.xpath("//button[@onclick=\"cart.add('40');\"]");
     By buttonBucket = By.id("cart");
-
-    // romanSkaskiv
     By addToWishListMacBook = By.xpath("//button[@onclick=\"wishlist.add('43');\"]");
     By addToWishListiPhone = By.xpath("//button[@onclick=\"wishlist.add('40');\"]");
     By addToWishListiMac = By.xpath("//button[@onclick=\"wishlist.add('42');\"]");
     By addToWishListCanon = By.xpath("//button[@onclick=\"wishlist.add('30');\"]");
     By buttonWishList = By.cssSelector("a[href$='wishlist']");
+    By buttonCategoryLaptops = By.xpath("//li/a[contains(text(),'Laptops & Notebooks')]");
+    By buttonSemiCategoryShowAllLaptops = By.xpath("//div[contains(@class,'dropdown-menu')]/a[contains(text(),'Show All Laptops & Notebooks')]");
+
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -76,6 +72,14 @@ public class HomePage extends BasePage {
         click(buttonWishList);
         return new SamsungGalaxyTabPage(driver);
     }
+
+    public CategoryLaptopPage redirectToCategoryLaptop(){
+        click(buttonCategoryLaptops);
+        click(buttonSemiCategoryShowAllLaptops);
+        return new CategoryLaptopPage(driver);
+    }
+
+
 
     public Header redirectToHeader() {
         return new Header(driver);
