@@ -23,6 +23,18 @@ public class ComparisonTest extends BaseTest {
 
         homePage.goToOpencart()
                 .redirectToCategoryLaptop()
-                .check();
+                .addToComparisonList("MacBook Pro")
+                .addToComparisonList("Sony VAIO")
+                .addToComparisonList("HP LP3065")
+                .redirectToComparisonPage()
+                .isAvailable(45)
+                .isAvailable(46)
+                .isAvailable(47)
+                .checkAdditing();
+
+
+
+
+        ;
     }
 }

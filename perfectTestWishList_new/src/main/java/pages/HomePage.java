@@ -25,8 +25,6 @@ public class HomePage extends BasePage {
     By buttonCategoryLaptops = By.xpath("//li/a[contains(text(),'Laptops & Notebooks')]");
     By buttonSemiCategoryShowAllLaptops = By.xpath("//div[contains(@class,'dropdown-menu')]/a[contains(text(),'Show All Laptops & Notebooks')]");
 
-    String currentQtyInBucket =  driver.findElement
-            (By.xpath("//button[contains(@data-loading-text,'Loading...')]/span[contains(text(),'')]")).getText();
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -81,11 +79,7 @@ public class HomePage extends BasePage {
         return new CategoryLaptopPage(driver);
     }
 
-    public HomePage check(){
-        String text =  driver.findElement(By.xpath("//button[contains(@data-loading-text,'Loading...')]/span[contains(text(),'')]")).getText();
-        System.out.println(text);
-        return this;
-    }
+
 
     public Header redirectToHeader() {
         return new Header(driver);
