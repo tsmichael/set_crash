@@ -3,20 +3,14 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+public class CategoryPhonesPage extends BasePage {
+    By buttonCompareProduct = By.id("compare-total");
 
-public class CategoryLaptopPage extends BasePage {
-
-    By buttonCompareProduct = By.xpath("//a[contains(@id,'compare-total')]");
-
-    public CategoryLaptopPage(WebDriver driver) {
+    public CategoryPhonesPage(WebDriver driver) {
         super(driver);
     }
 
-    public By CategoryLaptopPage(String productName) {
-        return By.xpath("//a[contains(text(), '" + productName + "')]/../../..//button[contains(@data-original-title, 'Compare this Product')]");
-    }
-
-    public CategoryLaptopPage addToComparisonList(String productName) {
+    public CategoryPhonesPage addToComparisonList(String productName) {
         click(getProduct(productName));
         return this;
     }

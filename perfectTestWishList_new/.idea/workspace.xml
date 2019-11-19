@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b820250-cea9-4174-848a-691992a1e589" name="Default Changelist" comment="Max Karrtopelka.&#10;- Added comparison buttons&#10;- Added comparison page&#10;- Added Apache Maven Compiler Plugin&#10;- Added comparison class and test&#10;P.S. Test &quot;ComparisonTest&quot; passed.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CategoryLaptopPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../perfectTestWishList/src/main/java/pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CategoryPhonesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CategoryLaptopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CategoryLaptopPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/ComparisonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ComparisonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+            <state relative-caret-position="430">
+              <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -49,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -64,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="430">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#382#383#0" expanded="true" />
@@ -78,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/CategoryLaptopPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+            <state relative-caret-position="476">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +77,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/CategoryPhonesPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/ComparisonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -119,9 +120,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/pages/StorePage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -129,10 +130,11 @@
         <option value="$PROJECT_DIR$/src/test/java/test/HomeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/ComparisonTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/CategoryLaptopPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/CategoryPhonesPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/CategoryLaptopPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/ComparisonTest.java" />
       </list>
     </option>
   </component>
@@ -157,13 +159,17 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="perfectTestWishList_new" type="b2602c69:ProjectViewProjectNode" />
               <item name="perfectTestWishList_new" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="perfectTestWishList_new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="perfectTestWishList_new" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="perfectTestWishList_new" type="b2602c69:ProjectViewProjectNode" />
@@ -216,6 +222,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ComparisonTest.test_AddingToCartOnlyINSTOCK">
+  <component name="RunManager" selected="TestNG.ComparisonTest.test_AddToCartOnlyInStock_fromComparePage">
     <configuration name="ComparisonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.opencart.demo" />
       <extension name="coverage">
@@ -266,7 +273,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparisonTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ComparisonTest.test_AddToCartOnlyInStock_fromComparePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.opencart.demo" />
       <extension name="coverage">
         <pattern>
@@ -276,7 +283,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.ComparisonTest" />
-      <option name="METHOD_NAME" value="testMethod" />
+      <option name="METHOD_NAME" value="test_AddToCartOnlyInStock_fromComparePage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -339,11 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ComparisonTest.test_AddToCartOnlyInStock_fromComparePage" />
         <item itemvalue="TestNG.ComparisonTest.test_AddingToCartOnlyINSTOCK" />
         <item itemvalue="TestNG.ForgotPasswordTest" />
         <item itemvalue="TestNG.ComparisonTest" />
         <item itemvalue="TestNG.HomeTest.testMethod" />
-        <item itemvalue="TestNG.ComparisonTest.testMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -369,6 +376,7 @@
       <workItem from="1573825754815" duration="7267000" />
       <workItem from="1573834533525" duration="509000" />
       <workItem from="1574012417693" duration="1284000" />
+      <workItem from="1574196086431" duration="505000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1573306387693</created>
@@ -420,7 +428,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24533000" />
+    <option name="totallyTimeSpent" value="25038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,8 +441,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -443,7 +452,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38297874" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38297874" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -619,42 +628,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CategoryLaptopPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/ComparisonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -669,6 +642,52 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ComparisonPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CategoryPhonesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CategoryLaptopPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ComparisonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>

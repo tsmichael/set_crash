@@ -25,7 +25,7 @@ public class HomePage extends BasePage {
     By buttonWishList = By.cssSelector("a[href$='wishlist']");
     By buttonCategoryLaptops = By.xpath("//li/a[contains(text(),'Laptops & Notebooks')]");
     By buttonSemiCategoryShowAllLaptops = By.xpath("//div[contains(@class,'dropdown-menu')]/a[contains(text(),'Show All Laptops & Notebooks')]");
-
+    By buttonCategoryPhones = By.xpath("//a[contains(text(),'Phones & PDAs')]");
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -74,13 +74,16 @@ public class HomePage extends BasePage {
         return new SamsungGalaxyTabPage(driver);
     }
 
-    public CategoryLaptopPage redirectToCategoryLaptop(){
+    public CategoryLaptopPage redirectToCategoryLaptop() {
         click(buttonCategoryLaptops);
         click(buttonSemiCategoryShowAllLaptops);
         return new CategoryLaptopPage(driver);
     }
 
-    public
+    public CategoryPhonesPage redirectToCategoryPhones() {
+        click(buttonCategoryPhones);
+        return new CategoryPhonesPage(driver);
+    }
 
     public Header redirectToHeader() {
         return new Header(driver);

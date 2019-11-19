@@ -18,23 +18,16 @@ public class ComparisonTest extends BaseTest {
     }
 
     @Test
-    public void test_AddingToCartOnlyINSTOCK(){
-        HomePage homePage=new HomePage(driver);
+    public void test_AddToCartOnlyInStock_fromComparePage() {
+        HomePage homePage = new HomePage(driver);
 
         homePage.goToOpencart()
-                .redirectToCategoryLaptop()
-                .addToComparisonList("MacBook Pro")
-                .addToComparisonList("Sony VAIO")
-                .addToComparisonList("HP LP3065")
+                .redirectToCategoryPhones()
+                .addToComparisonList("iPhone")
+                .addToComparisonList("HTC Touch HD")
+                .addToComparisonList("Palm Treo Pro")
                 .redirectToComparisonPage()
-                .isAvailable(45)
-                .isAvailable(46)
-                .isAvailable(47)
-                .checkAdditing();
-
-
-
-
-        ;
+                .availableAddToCart()
+                .itemsInBucket();
     }
 }
